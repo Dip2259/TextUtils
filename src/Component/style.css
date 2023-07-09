@@ -1,0 +1,37 @@
+.outer{
+    width: 45vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin: auto;
+}
+.Label{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+}
+#textFeild{
+    resize: none;
+    width: 100%;
+    height: 90%;
+}
+.buttons{
+    width: 45vw;
+    margin: 2vh auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.buttons button{
+    margin: 0.2rem;
+}
+.txtSummary{
+    width: 45vw;
+    margin: auto;
+}
